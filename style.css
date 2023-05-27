@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00cec9;
+    display: flex;
+    flex-wrap: wrap;
+     
+    
+}
+
+.note{
+    width: 30rem;
+    height: 35rem;
+    box-shadow: 1rem .5rem .5rem rgb(58, 57, 57);
+    background-color: #dfe6e9;
+    margin: 1rem;
+    margin-top: 5.5rem;
+}
+
+.tool{
+    width: 100%;
+    height: 3rem;
+    background-color: #0b0b0b;
+    color: white;
+    padding: .5rem;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    align-items: center;
+}
+
+.tool{
+     
+    cursor: pointer;
+    padding: .5rem;
+}
+
+#addBtn{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    background-color: #2d3436;
+    color: white;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: .2rem .2rem .2rem .2rem rgb(105, 152, 211);
+}
+
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 91%;
+    resize: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.note textarea:focus{
+     border: 0;
+     outline: 0;
+}
